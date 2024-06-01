@@ -1,0 +1,65 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: url('./weather.jpg') no-repeat center center fixed; /* Adjust path as needed */
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  color: white;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #63a4ff;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.temperature {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffcc00; /* Gold color for the temperature */
+}
